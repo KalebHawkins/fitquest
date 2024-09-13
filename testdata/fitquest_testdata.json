@@ -1,0 +1,34 @@
+{
+    "exercises": [
+      {
+        "name": "Push-ups",
+        "goal": 100,
+        "record": 50,
+        "sessions": [
+          {
+            "count": 20,
+            "date": "2024-09-10T08:00:00Z"
+          },
+          {
+            "count": 30,
+            "date": "2024-09-11T09:30:00Z"
+          }
+        ]
+      },
+      {
+        "name": "Squats",
+        "goal": 150,
+        "record": 75,
+        "sessions": [
+          {
+            "count": 40,
+            "date": "2024-09-10T07:30:00Z"
+          },
+          {
+            "count": 35,
+            "date": "2024-09-11T08:00:00Z"
+          }
+        ]
+      }
+    ]
+  }
