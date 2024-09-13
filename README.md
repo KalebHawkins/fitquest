@@ -2,11 +2,11 @@
 
 Fitquest is a simple workout log. It was designed to take away all of the fluff of exercising. Most workout apps are over complicated. Notebooks are hard to keep up with and I don't know about you but my handwriting is terrible. 
 
-FitQuest is probably the simplest workout log you'll ever use. Set a goal, e.g, 100 Push-ups. That is 100 push-ups in a single set. Now do push-ups. Log how many you did using Fitquest.
+Fitquest is probably the simplest workout log you'll ever use. Set a goal, e.g, 100 Push-ups. That is 100 push-ups in a single set. Now do push-ups. Log how many you did using Fitquest.
 
-FitQuest is as simple as it sounds.
+Fitquest is as simple as it sounds.
 
-## Usage
+## Cli Usage
 
 ### Adding Exercises to Track
 
@@ -67,8 +67,6 @@ Push-Ups:
       Date: 2006-01-02 Count: 5
 ```
 
-
-
 ### Updating an Exercise or Goal
 
 Using the `--id` flag will perform an update the exercises name and goal. 
@@ -84,3 +82,12 @@ fitquest --id 1 --reps 50
 # OR
 fitquest --id 1 -r 50
 ```
+
+## Fitquest File
+
+Fitquest saves all your data locally to a `~/.fitquest.json` file. 
+
+## Roadmap
+
+- [ ] Feature: Update/Edit Sessions
+- [ ] Enhancement: Add web frontend for simpler api usage. 
